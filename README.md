@@ -53,7 +53,11 @@ git clone https://github.com/hendurhance/express-dockerize.git
 ```sh
 cd express-dockerize
 ```
-3. Start the Docker containers
+3. Install dependencies
+ ```sh
+  npm install
+```  
+4. Start the Docker containers
 ```sh
  docker-compose up --build -d
 ```
